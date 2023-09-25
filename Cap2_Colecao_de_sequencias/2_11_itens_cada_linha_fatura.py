@@ -15,3 +15,6 @@ line_items = invoice.split('\n')[2:]
 # print(line_items)
 for item in line_items:
     print(item[UNIT_PRICE], item[DESCRIPTION])
+
+# >>> tupla[-1:-6:-1] # Na ordem reversa ele não começa do 0 e sim do -1, então, ao invés de 0 -> 5 vira -1 -> -6
+# (5, 4, 3, 2, 1)
