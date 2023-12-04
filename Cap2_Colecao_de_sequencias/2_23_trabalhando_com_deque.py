@@ -1,6 +1,6 @@
 from collections import deque
 
-dq = deque(range(10), maxlen=10)
+dq = deque(range(10), maxlen=10) # double-ended queue
 
 print(dq)
 # deque([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], maxlen=10)

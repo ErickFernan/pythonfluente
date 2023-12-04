@@ -23,7 +23,7 @@ Latlong = namedtuple('Latlong', 'lat long')
 delhi_data = ('Delhi NCR', 'IN', 21.935, Latlong(28.613889, 77.208889))
 delhi = City._make(delhi_data) # City(*delhi_data) faria a mesma coisa
 print(delhi._asdict())
-# {'name': 'Delhi NCR', 'country': 'IN', 'population': 21.935, 'coordinates': (28.613889, 77.208889)}
+# {'name': 'Delhi NCR', 'country': 'IN', 'population': 21.935, 'coordinates': Latlong(lat=28.613889, long=77.208889)}
 
 for key, value in delhi._asdict().items():
     print(key + ':', value)
